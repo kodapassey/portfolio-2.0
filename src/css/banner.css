@@ -1,0 +1,112 @@
+/* list of class names */
+/* .banner - full <section> wrapping everything inside banner */
+/* .tagLine - <span> with words that say "welcome to my portfolio" */
+
+body {
+    background-color: #111011;
+}
+
+.banner {
+    margin-top: 0;
+    padding: 100px 0 100px 0;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.banner .tagLine {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: #1a2980;
+    background: -webkit-linear-gradient(to right, #1a2980, #26d0ce);
+    background: linear-gradient(to right, #1a2980, #26d0ce);
+    padding: 10px;
+}
+
+.banner h1 {
+    font-size: 65px;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    display: block;
+}
+
+.banner h2 {
+    display: inline-block;
+    margin: 0 5px 5px 5px;
+}
+
+.fakeCode {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.banner p {
+    color: grey;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.banner button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+}
+
+.banner button:hover {
+    cursor: pointer;
+}
+
+.banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+
+.banner button:hover svg {
+    margin-left: 25px;
+}
+
+.banner img {
+    animation: updown 3s linear infinite;
+    width: 100%;
+    border-radius: 20%;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@media (max-width: 640px) {
+     .banner{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {}
