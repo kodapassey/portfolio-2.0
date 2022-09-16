@@ -1,16 +1,17 @@
-import '../css/sidebar.css'
+import '../css/sidebar.scss'
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import LogoPNG from '../images/Una_K.png';
 import 'react-bootstrap'
+import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export const Sidebar = () => {
     return (
         <div className="nav-bar">
             <Link className="logo" to='/'>
                 <img src={LogoPNG} alt='logo' />
-                <p className='subLogo'>Koda</p>
+                        <p className='subLogo'>Koda</p>
             </Link>
             <nav>
                 <NavLink exact='true' activeclassname='active' to='/'>
@@ -23,6 +24,18 @@ export const Sidebar = () => {
                     <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
                 </NavLink>
             </nav>
+            <ul>
+                <li>
+                    <a target='_blank' rel="noreferrer" href='https://github.com/kodapassey'>
+                        <FontAwesomeIcon icon={faGithub} color='#4d4d4e' />
+                    </a>
+                </li>
+                <li>
+                    <a target='_blank' rel="noreferrer" href='https://www.instagram.com/kodapassey/'>
+                        <FontAwesomeIcon icon={faInstagram} color='#4d4d4e' />
+                    </a>
+                </li>
+            </ul>
         </div>
     )
 }

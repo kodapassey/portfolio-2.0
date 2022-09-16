@@ -8,7 +8,7 @@ body {
 
 .banner {
     margin-top: 0;
-    padding: 100px 0 100px 0;
+    /* padding: 100px 0 100px 0; */
     color: white;
     font-family: 'League Spartan', sans-serif;
 }
@@ -64,6 +64,7 @@ body {
 
 .banner button:hover {
     cursor: pointer;
+    color: #26d0ce;
 }
 
 .banner button svg {
@@ -77,28 +78,69 @@ body {
     margin-left: 25px;
 }
 
-.banner img {
-    animation: updown 3s linear infinite;
-    width: 100%;
-    border-radius: 20%;
-}
-
-@keyframes updown {
+@keyframes blink {
     0% {
-        transform: translateY(-20px);
+        opacity: 1;
     }
 
     50% {
-        transform: translateY(20px);
+        opacity: 0;
     }
 
     100% {
-        transform: translateY(-20px);
+        opacity: 1;
     }
 }
 
+.imgWrap {
+    position: relative;
+    display: flex;
+}
+
+.imgWrap .topImg {
+    width: 100%;
+    border-radius: 15%;
+    z-index: 3;
+    border: 2px solid white;
+}
+
+
+.imgWrap .bottomImg {
+    position: relative;
+    right: 100%;
+    width: 100%;
+    border-radius: 15%;
+    border: 2px solid white;
+}
+
+@keyframes FadeInOut {
+    0% {
+        opacity: 1;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    55% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.imgWrap img.topImg {
+    animation-name: FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+
 @media (max-width: 640px) {
-     .banner{
+    .banner {
         text-align: center;
     }
 }
