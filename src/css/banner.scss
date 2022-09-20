@@ -8,12 +8,12 @@ body {
 
 .banner {
     margin-top: 0;
-    /* padding: 100px 0 100px 0; */
+    padding: 20px 0 0 100px;
     color: white;
     font-family: 'League Spartan', sans-serif;
 }
 
-.banner .tagLine {
+.tagLine {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 16px;
@@ -32,6 +32,16 @@ body {
     margin-bottom: 20px;
     margin-top: 5px;
     display: block;
+}
+
+.nameK {
+    position: relative;
+    display: inline;
+    width: 65px;
+    height: 64px;
+    bottom: 10px;
+    left: 5px;
+    margin-left: -15px;
 }
 
 .banner h2 {
@@ -78,20 +88,6 @@ body {
     margin-left: 25px;
 }
 
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 .imgWrap {
     position: relative;
     display: flex;
@@ -102,6 +98,7 @@ body {
     border-radius: 15%;
     z-index: 3;
     border: 2px solid white;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 }
 
 
@@ -111,6 +108,7 @@ body {
     width: 100%;
     border-radius: 15%;
     border: 2px solid white;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 }
 
 @keyframes FadeInOut {

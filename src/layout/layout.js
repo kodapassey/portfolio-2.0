@@ -1,11 +1,14 @@
+import { Outlet } from "react-router-dom";
 import { Sidebar } from "../components/Sidebar";
-import { Banner } from "../components/Banner";
+import '../css/app.css';
 
 export const Layout = () => {
     return (
         <div className="App">
             <Sidebar />
-            <Banner />
+            <div className="page">
+                <Outlet />
+            </div>
         </div>
     )
 }

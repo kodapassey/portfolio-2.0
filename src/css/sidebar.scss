@@ -1,12 +1,10 @@
 .nav-bar {
     background: #181818;
-    width: 80px;
+    position: fixed;
     height: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 3;
-    min-height: 500px;
+    width: 110px;
 }
+
 
 .logo {
     display: block;
@@ -14,23 +12,32 @@
     text-decoration: none;
 }
 
-img {
+.logo:hover {
+
+    .subLogo {
+        transition: all 0.25s ease-out;
+        color: #26d0ce;
+        font-size: 27px;
+    }
+
+    img {
+        transition: all 0.25s ease-out;
+        width: 55px;
+    }
+}
+
+.sideK {
     display: block;
     margin: 8px auto;
-    width: 40px;
+    width: 50px;
     height: auto;
 }
 
 .subLogo {
     font-family: 'League Spartan', sans-serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
-}
-
-.subLogo:hover {
-    transition: all 0.25s ease-out;
-    color: #26d0ce;
 }
 
 nav {
@@ -106,20 +113,20 @@ nav {
     }
 }
 
-ul {
+.nav-bar ul {
     list-style-type: none;
-    font-size: 25px;
+    font-size: 28px;
     display: flex;
     justify-content: center;
 }
 
-ul li {
+.nav-bar ul li {
     position: relative;
     right: 15px;
     margin: 4px;
 }
 
-ul li svg:hover {
+.nav-bar ul li svg:hover {
     transition: all .75s ease-out;
     color: #26d0ce;
 }

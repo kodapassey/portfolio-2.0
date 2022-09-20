@@ -10,8 +10,8 @@ export const Sidebar = () => {
     return (
         <div className="nav-bar">
             <Link className="logo" to='/'>
-                <img src={LogoPNG} alt='logo' />
-                        <p className='subLogo'>Koda</p>
+                <img className='sideK' src={LogoPNG} alt='logo' />
+                <p className='subLogo'>Koda</p>
             </Link>
             <nav>
                 <NavLink exact='true' activeclassname='active' to='/'>
