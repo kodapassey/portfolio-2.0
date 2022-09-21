@@ -1,0 +1,115 @@
+.contact-page {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.text-zone {
+    padding: 14%;
+    padding-bottom: 0;
+    width: 60%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-zone h1 {
+    font-size: 50px;
+}
+
+.text-zone p {
+    vertical-align: middle;
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-form ul {
+    padding: 0;
+    margin: 0;
+}
+
+.contact-form ul li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+    color: white;
+}
+
+.contact-form ul li.half {
+    width: 50%;
+    display: inline-flex;
+}
+
+.name {
+    margin-right: 3px;
+}
+
+.email {
+    margin-left: 3px;
+}
+
+input[type='text'],
+input[type='email'] {
+    width: 100%;
+    height: 64px;
+    border: 0;
+    background: #181818;
+    padding: 0 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    background: #181818;
+    padding: 20px;
+    min-height: 150px;
+    color: white;
+    border-radius: 15px;
+}
+
+.flat-button {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #181818;
+    padding: 8px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.flat-button:hover {
+    transition: all .2s ease-out;
+    background: #26d0ce;
+    border: 1px solid black;
+}
+
+.info-map {
+    width: 50%;
+    padding: 20px;
+    color: white;
+    font-size: 17px;
+}
+
+.map-wrap {
+    background: black;
+    float: right;
+    width: 100%;
+    height: 100%
+}
+
+.leaflet-container {
+    width: 100%;
+    height: 93%;
+    position: relative;
+
+}

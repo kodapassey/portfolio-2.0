@@ -1,0 +1,50 @@
+.portfolio-wrap {
+    display: flex;
+    width: 100%;
+    position: relative;
+    left: 5%;
+    justify-content: center;
+}
+
+.project {
+    border: 7px solid white;
+    background: #181818;
+    border-radius: 5%;
+    text-align: center;
+    margin: 50px 15px 0 10px;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.project img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.project button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.project button:hover {
+    transition: all .5s ease-out;
+    background: #26d0ce;
+    border: 1px solid black;
+}
+
+.portfolio-wrap h1 {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.portfolio-wrap h2 {
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
