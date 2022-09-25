@@ -1,8 +1,7 @@
 .portfolio-wrap {
     display: flex;
     width: 100%;
-    position: relative;
-    left: 5%;
+    margin-bottom: 50px;
     justify-content: center;
 }
 

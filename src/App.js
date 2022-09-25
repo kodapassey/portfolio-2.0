@@ -11,10 +11,8 @@ import { Portfolio } from './components/Portfolio'
 import {
   MDBFooter,
   MDBContainer,
-  MDBIcon,
   MDBBtn
 } from 'mdb-react-ui-kit';
-import { faGit, faGithub, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faA, faD, faK, faO } from "@fortawesome/free-solid-svg-icons";
 
 

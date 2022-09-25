@@ -147,3 +147,59 @@ nav {
     border: 2px solid #26d0ce;
     background-color: rgb(12, 12, 12);
 }
+
+
+.mobile-lines {
+    display: none;
+}
+
+@media (min-width: 250px) {
+    .nav-bar {
+        width: 100%;
+    }
+
+    .mobile-lines {
+        display: block;
+        font-size: 35px;
+        margin: 10px 10px 0 10px;
+        position: absolute;
+        z-index: 9998;
+    }
+
+    .sidebar-x {
+        font-size: 35px;
+        margin: 10px 20px 0 10px;
+        position: absolute;
+    }
+
+    .portfolioBtn {
+        width: 50%;
+    }
+}
+
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {
+    .nav-bar {
+        display: flex;
+        width: 110px;
+    }
+
+    .mobile-lines {
+        display: none;
+    }
+
+    .sidebar-x {
+        display: none;
+    }
+
+    .portfolioBtn {
+        width: 80%;
+    }
+}

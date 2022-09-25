@@ -4,17 +4,20 @@ import emailjs from '@emailjs/browser';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 
 export const Contact = () => {
+    const refForm = useRef()
 
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
 
-    //     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-    //         .then((result) => {
-    //             console.log(result.text);
-    //         }, (error) => {
-    //             console.log(error.text);
-    //         });
-    // };
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_u3nl63j', 'template_nxfxj0u', refForm.current, 'nd5F-JQfuBSg3CQaS')
+            .then(() => {
+                alert('Message successfully sent!');
+                window.location.reload(false);
+            }, () => {
+                alert('Failed to send message, please try again')
+            });
+    };
 
 
     return (
@@ -24,7 +27,7 @@ export const Contact = () => {
                     <h1>Get in touch</h1>
                     <p>I am interested in....</p>
                     <div className='contact-form'>
-                        <form>
+                        <form ref={refForm} onSubmit={sendEmail}>
                             <ul>
                                 <li className='half'>
                                     <input type='text' className='name' name='name' placeholder='Name' required />

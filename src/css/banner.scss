@@ -8,7 +8,6 @@ body {
 
 .banner {
     margin-top: 0;
-    padding: 20px 0 0 100px;
     color: white;
     font-family: 'League Spartan', sans-serif;
 }
@@ -26,7 +25,6 @@ body {
 }
 
 .banner h1 {
-    font-size: 65px;
     letter-spacing: 0.8px;
     line-height: 1;
     margin-bottom: 20px;
@@ -68,7 +66,6 @@ body {
     font-size: 20px;
     margin-top: 60px;
     letter-spacing: 0.8px;
-    display: flex;
     align-items: center;
 }
 
@@ -137,15 +134,72 @@ body {
     animation-direction: alternate;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 250px) {
+
     .banner {
         text-align: center;
+        padding: 20px;
+    }
+
+    .banner button {
+        display: inline;
+        margin-bottom: 20px;
+    }
+
+    .banner h1 {
+        right: 5px;
+        font-size: 36px;
+    }
+
+    .nameK {
+        width: 40px;
+        height: 37px;
+        bottom: 6px;
     }
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 640px) {
 
-@media (min-width: 1024px) {}
+    .banner h1 {
+        right: 5px;
+        font-size: 50px;
+    }
+
+    .nameK {
+        width: 50px;
+        height: 50px;
+        bottom: 9px;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner {
+        text-align: left;
+    }
+
+    .banner button {
+        display: flex;
+        margin-bottom: 0px;
+    }
+
+    .banner h1 {
+        right: 5px;
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .banner h1 {
+        right: 5px;
+        font-size: 65px;
+    }
+
+    .nameK {
+        width: 65px;
+        height: 64px;
+        bottom: 10px;
+    }
+}
 
 @media (min-width: 1280px) {}
 
