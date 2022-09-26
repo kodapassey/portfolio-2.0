@@ -20,12 +20,6 @@ export const Sidebar = () => {
         display: 'block'
     }
 
-    // const loadnstuff = () => {
-    //     window.onload = {
-    //         display: 'none'
-    //     }
-    // }
-
 
     return (
 
@@ -43,21 +37,21 @@ export const Sidebar = () => {
                     <FontAwesomeIcon icon={faClose} />
                 </div>
 
-                <Link className="logo" to='/'>
+                <Link className="logo" to='/portfolio-2.0'>
                     <img className='sideK' src={LogoPNG} alt='logo' />
                     <p className='subLogo'>Koda</p>
                 </Link>
                 <nav>
-                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' to='/'>
+                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' to='/portfolio-2.0'>
                         <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
                     </NavLink>
-                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' className='about-link' to='/about'>
+                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' className='about-link' to='/portfolio-2.0/about'>
                         <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
                     </NavLink>
-                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' className='contact-link' to='/contact'>
+                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' className='contact-link' to='/portfolio-2.0/contact'>
                         <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
                     </NavLink>
-                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' to='/portfolio'>
+                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' to='/portfolio-2.0/portfolio'>
                         <h3 className='portfolioBtn' >Portfolio</h3>
                     </NavLink>
                 </nav>

@@ -13,7 +13,7 @@ export const Banner = () => {
     const navigate = useNavigate();
 
     const navigateToContact = () => {
-        navigate('/contact');
+        navigate('/portfolio-2.0/contact');
     };
 
     return (
