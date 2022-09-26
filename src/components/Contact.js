@@ -2,6 +2,7 @@ import '../css/contact.css';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import { Col, Container, Row } from 'react-bootstrap';
 
 export const Contact = () => {
     const refForm = useRef()
@@ -21,9 +22,9 @@ export const Contact = () => {
 
 
     return (
-        <>
-            <div className='contanier contact-page'>
-                <div className='text-zone'>
+        <Container>
+            <Row className='contanier contact-page'>
+                <Col xl={6} lg={6} xs={12} className='text-zone'>
                     <h1>Get in touch</h1>
                     <p>I am interested in....</p>
                     <div className='contact-form'>
@@ -47,10 +48,10 @@ export const Contact = () => {
                             </ul>
                         </form>
                     </div>
-                </div>
+                </Col>
 
 
-                <div className='info-map'>
+                <Col xl={6} lg={6} xs={12} className='info-map'>
                     <h4>Koda Passey</h4>
 
                     <h5>Medford, OR United States</h5>
@@ -65,9 +66,9 @@ export const Contact = () => {
                             </Marker>
                         </MapContainer>
                     </div>
-                </div>
-            </div>
-        </>
+                </Col>
+            </Row>
+        </Container>
     )
 }
 

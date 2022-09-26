@@ -133,12 +133,15 @@ nav {
 }
 
 .portfolioBtn {
-    border: 2px solid #4d4d4e;
     background: none;
+    border: 2px solid #4d4d4e;
     color: #4d4d4e;
     font-size: 20px;
-    margin: 130px 10px 0 10px;
+    margin: 130px 10px 0;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .portfolioBtn:hover {
@@ -174,6 +177,9 @@ nav {
 
     .portfolioBtn {
         width: 50%;
+        margin: 0;
+        margin-top: 130px;
+        left: 25%;
     }
 }
 
@@ -201,5 +207,7 @@ nav {
 
     .portfolioBtn {
         width: 80%;
+        margin: 130px 10px 0;
+        left: 0%;
     }
 }

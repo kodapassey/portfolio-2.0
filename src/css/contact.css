@@ -1,14 +1,5 @@
-.contact-page {
-    position: relative;
-    width: 100%;
-    display: flex;
-}
-
 .text-zone {
-    padding: 14%;
-    width: 60%;
     color: white;
-    margin: -50px 0 0 0;
     display: flex;
     flex-direction: column;
 }
@@ -94,13 +85,6 @@ textarea {
     border: 1px solid black;
 }
 
-.info-map {
-    width: 50%;
-    padding: 20px;
-    color: white;
-    font-size: 17px;
-}
-
 .map-wrap {
     background: black;
     float: right;
@@ -114,4 +98,54 @@ textarea {
     height: 100%;
     position: relative;
 
+}
+
+
+@media (min-width: 250px) {
+
+    .text-zone {
+        padding: 20% 10%14% 10%;
+    }
+
+    .info-map {
+        width: 100%;
+        height: 500px;
+        color: white;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .info-map h4,
+    .info-map h5 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1536px) {
+    .info-map {
+        width: 50%;
+        height: 750px;
+        padding: 20px;
+        color: white;
+        font-size: 17px;
+    }
+
+    .info-map h4,
+    .info-map h5 {
+        text-align: left;
+    }
+
+    .text-zone {
+        padding: 14% 10%14% 0;
+    }
 }
