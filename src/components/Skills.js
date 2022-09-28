@@ -23,22 +23,22 @@ export const Skills = () => {
                             <li>
                                 {/* <LightningChargeFill /> */}
                                 HTML
-                                <p>Master</p>
+                                <p>Advanced</p>
                             </li>
                             <li>
                                 {/* <LightningChargeFill /> */}
                                 CSS
-                                <p>Master</p>
+                                <p>Advanced</p>
                             </li>
                             <li>
                                 {/* <LightningChargeFill /> */}
                                 JavaScript
-                                <p>Master</p>
+                                <p>Intermediate</p>
                             </li>
                             <li>
                                 {/* <LightningChargeFill /> */}
                                 React
-                                <p>Master</p>
+                                <p>Intermediate</p>
                             </li>
                         </ul>
                     </Col>
@@ -50,22 +50,22 @@ export const Skills = () => {
                             <li>
                                 {/* <LightningChargeFill /> */}
                                 Node JS
-                                <p>Master</p>
+                                <p>Intermediate</p>
                             </li>
                             <li>
                                 {/* <LightningChargeFill /> */}
                                 MongoDB
-                                <p>Master</p>
+                                <p>Basic</p>
                             </li>
                             <li>
                                 {/* <LightningChargeFill /> */}
                                 MySQL
-                                <p>Master</p>
+                                <p>Basic</p>
                             </li>
                             <li>
                                 {/* <LightningChargeFill /> */}
                                 Express
-                                <p>Master</p>
+                                <p>Intermediate</p>
                             </li>
                         </ul>
                     </Col>
