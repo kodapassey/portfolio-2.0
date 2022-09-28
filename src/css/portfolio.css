@@ -31,6 +31,10 @@
     border-radius: 10px;
 }
 
+.project h3 {
+    margin-top: 10px;
+}
+
 .project button:hover {
     transition: all .5s ease-out;
     background: #26d0ce;
