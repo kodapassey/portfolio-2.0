@@ -26,7 +26,7 @@ export const Banner = () => {
                         </span>
                         <h1>Hi! I'm <img className='nameK' src={logo} alt='K inside name' />oda Passey</h1>
                         <span className="fakeCode">&lt;h2&gt;</span><h2>Web Developer</h2><span className="fakeCode">&lt;h2 /&gt;</span>
-                        <p>I am Koda, and this is a paragraph text about me(this might get removed)</p>
+                        <p>I am Koda, a full-stack web developer out of Oregon.</p>
                         <button onClick={navigateToContact}>Lets Connect <ArrowRightCircle size={25} /> </button>
                     </Col>
                     <Col className='imgWrap' xs={12} md={6} lg={6} xl={5}>

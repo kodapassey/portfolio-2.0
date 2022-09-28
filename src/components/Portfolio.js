@@ -8,7 +8,7 @@ export const Portfolio = () => {
     return (
         <Container>
             <Row className="portfolio-wrap">
-                <h1>View my work</h1>
+                <h1>VIEW MY WORK</h1>
                 <h2>Portfolio</h2>
 
                 {portfolio.map((project) => (

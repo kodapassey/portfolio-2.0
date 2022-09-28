@@ -37,7 +37,7 @@ export const Sidebar = () => {
                     <FontAwesomeIcon icon={faClose} />
                 </div>
 
-                <Link className="logo" to='/portfolio-2.0'>
+                <Link onClick={window.screen.width < 1536 ? handleClick : changeNav} className="logo" to='/portfolio-2.0'>
                     <img className='sideK' src={LogoPNG} alt='logo' />
                     <p className='subLogo'>Koda</p>
                 </Link>

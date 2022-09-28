@@ -25,8 +25,7 @@ export const Contact = () => {
         <Container>
             <Row className='contanier contact-page'>
                 <Col xl={6} lg={6} xs={12} className='text-zone'>
-                    <h1>Get in touch</h1>
-                    <p>I am interested in....</p>
+                    <h1>GET IN TOUCH</h1>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
                             <ul>
