@@ -6,7 +6,6 @@ import LogoPNG from '../images/Una_K.png';
 import 'react-bootstrap'
 import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
-import { WindowFullscreen } from 'react-bootstrap-icons';
 
 
 export const Sidebar = () => {

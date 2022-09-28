@@ -6,7 +6,7 @@
 }
 
 .about-text {
-    padding-top: 13%;
+    padding-top: 6%;
     position: relative;
     left: 3%;
 }
@@ -14,6 +14,13 @@
 .about h1 {
     color: white;
     font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.about h2 {
+    color: #26d0ce;
+    font-size: 30px;
+    margin-top: 0;
     margin-bottom: 15px;
 }
 
@@ -21,7 +28,7 @@
     color: white;
     width: 100%;
     word-wrap: break-word;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 
@@ -41,8 +48,6 @@
 
 .pic {
     position: absolute;
-    width: 100%;
-    height: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -117,8 +122,14 @@
 @media (min-width: 250px) {
 
     .about-text h1,
+    .about-text h2,
     .about-text p {
         text-align: center;
+    }
+
+    .pic {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -129,8 +140,14 @@
 @media (min-width: 1024px) {
 
     .about-text h1,
+    .about-text h2,
     .about-text p {
         text-align: left;
+    }
+
+    .pic {
+        width: 120%;
+        height: 120%;
     }
 }
 

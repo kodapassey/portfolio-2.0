@@ -28,8 +28,8 @@ function App() {
             </>
           } />
           <Route path="about" element={<About />} />
-          <Route path="/portfolio-2.0/contact" element={<Contact />} />
-          <Route path="/portfolio-2.0/portfolio" element={<Portfolio />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="portfolio" element={<Portfolio />} />
         </Route>
       </Routes>
 

@@ -1,6 +1,5 @@
 import '../css/portfolio.css'
 import { Container, Row, Col } from "react-bootstrap";
-import runBuddy from '../images/projects/Screenshot (2).png';
 import portfolio from '../links/portfolio';
 
 
@@ -16,10 +15,10 @@ export const Portfolio = () => {
                         <img src={project.img} alt=""></img>
                         <h3>{project.name}</h3>
                         <p>{project.desc}</p>
-                        <a target="_blank" href={project.github}>
+                        <a target="_blank" rel="noreferrer" href={project.github}>
                             <button className="github">GitHub</button>
                         </a>
-                        <a target="_blank" href={project.live}>
+                        <a target="_blank" rel="noreferrer" href={project.live}>
                             <button className="live-demo">Live Demo</button>
                         </a>
                     </Col>

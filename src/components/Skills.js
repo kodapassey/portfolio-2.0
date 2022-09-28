@@ -1,6 +1,5 @@
 import '../css/skills.css'
 import 'react-bootstrap-icons';
-import { LightningChargeFill } from 'react-bootstrap-icons';
 import 'react-bootstrap';
 import { Col, Container, Row } from 'react-bootstrap';
 
@@ -21,22 +20,18 @@ export const Skills = () => {
                         </div>
                         <ul>
                             <li>
-                                {/* <LightningChargeFill /> */}
                                 HTML
                                 <p>Advanced</p>
                             </li>
                             <li>
-                                {/* <LightningChargeFill /> */}
                                 CSS
                                 <p>Advanced</p>
                             </li>
                             <li>
-                                {/* <LightningChargeFill /> */}
                                 JavaScript
                                 <p>Intermediate</p>
                             </li>
                             <li>
-                                {/* <LightningChargeFill /> */}
                                 React
                                 <p>Intermediate</p>
                             </li>
@@ -48,22 +43,18 @@ export const Skills = () => {
                         </div>
                         <ul>
                             <li>
-                                {/* <LightningChargeFill /> */}
                                 Node JS
                                 <p>Intermediate</p>
                             </li>
                             <li>
-                                {/* <LightningChargeFill /> */}
                                 MongoDB
                                 <p>Basic</p>
                             </li>
                             <li>
-                                {/* <LightningChargeFill /> */}
                                 MySQL
                                 <p>Basic</p>
                             </li>
                             <li>
-                                {/* <LightningChargeFill /> */}
                                 Express
                                 <p>Intermediate</p>
                             </li>
