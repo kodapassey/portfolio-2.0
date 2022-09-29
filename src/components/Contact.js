@@ -14,7 +14,7 @@ export const Contact = () => {
         emailjs.sendForm('service_u3nl63j', 'template_nxfxj0u', refForm.current, 'nd5F-JQfuBSg3CQaS')
             .then(() => {
                 alert('Message successfully sent!');
-                e.target.reset()
+                e.target.reset();
             }, () => {
                 alert('Failed to send message, please try again')
             });
@@ -52,7 +52,7 @@ export const Contact = () => {
 
                 <Col xl={6} lg={6} xs={12} className='info-map'>
                     <h4>Koda Passey</h4>
-
+                    <a className='tel' href="tel:541-778-2746">541-778-2746</a>
                     <h5>Medford, OR United States</h5>
 
 
