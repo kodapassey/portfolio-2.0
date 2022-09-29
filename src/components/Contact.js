@@ -14,7 +14,7 @@ export const Contact = () => {
         emailjs.sendForm('service_u3nl63j', 'template_nxfxj0u', refForm.current, 'nd5F-JQfuBSg3CQaS')
             .then(() => {
                 alert('Message successfully sent!');
-                window.location.reload(false);
+                e.target.reset()
             }, () => {
                 alert('Failed to send message, please try again')
             });
