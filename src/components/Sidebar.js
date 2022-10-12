@@ -8,7 +8,7 @@ import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
 
 
-export const Sidebar = () => {
+export default function Sidebar () {
     const [isShown, setIsShown] = useState(true);
 
     const handleClick = event => {
@@ -22,13 +22,13 @@ export const Sidebar = () => {
 
     return (
 
-        <div className='wrapper'>
+        <>
 
             <div onClick={handleClick} className='mobile-lines'>
                 <FontAwesomeIcon icon={faBars} />
             </div>
 
-            <div onLoad={window.screen.width < 1536 ? handleClick: true} className="nav-bar" style={{
+            <div className="nav-bar" style={{
                 display: isShown ? 'block' : 'none',
             }}>
 
@@ -67,6 +67,6 @@ export const Sidebar = () => {
                     </li>
                 </ul>
             </div>
-        </div >
+        </>
     )
 }

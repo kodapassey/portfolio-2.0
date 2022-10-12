@@ -1,69 +1,36 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './css/app.css';
 import { Route, Routes } from "react-router-dom";
-import { About } from "./components/About";
-import { Banner } from "./components/Banner";
-import { Layout } from "./layout/Layout";
-import { Contact } from './components/Contact';
-import { Skills } from "./components/Skills";
-import { Portfolio } from './components/Portfolio'
-
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBBtn
-} from 'mdb-react-ui-kit';
-import { faA, faD, faK, faO } from "@fortawesome/free-solid-svg-icons";
+import About from "./components/About";
+import Banner from "./components/Banner";
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio'
+import Footer from './components/Footer';
+import Sidebar from "./components/Sidebar";
+import Skills from "./components/Skills";
 
 
 function App() {
   return (
-    <>
+    <div className="App">
+      <Sidebar />
+
       <Routes>
-        <Route path="/portfolio-2.0" element={<Layout />}>
-          <Route index element={
-            <>
-              <Banner />
-              <Skills />
-            </>
-          } />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="portfolio" element={<Portfolio />} />
-        </Route>
+        <Route path="/portfolio-2.0" element={[<Banner />, <Skills />]} />
+        <Route path="/portfolio-2.0/about" element={<About />} />
+        <Route path="/portfolio-2.0/contact" element={<Contact />} />
+        <Route path="/portfolio-2.0/portfolio" element={<Portfolio />} />
       </Routes>
 
+      <Footer />
+    
 
-      <MDBFooter className='text-center' color='white'>
-        <MDBContainer>
-          <section className='mb-4'>
-            <MDBBtn outline color="light" floating className='m-1'>
-              <FontAwesomeIcon icon={faK} />
-            </MDBBtn>
-
-            <MDBBtn outline color="light" floating className='m-1'>
-              <FontAwesomeIcon icon={faO} />
-            </MDBBtn>
-
-            <MDBBtn outline color="light" floating className='m-1'>
-              <FontAwesomeIcon icon={faD} />
-            </MDBBtn>
-
-            <MDBBtn outline color="light" floating className='m-1'>
-              <FontAwesomeIcon icon={faA} />
-            </MDBBtn>
-
-          </section>
-
-          <section>
-            <p>
-              Thank you so much for visiting my portfolio page! Can't wait to work with you soon!
-            </p>
-          </section>
-        </MDBContainer>
-      </MDBFooter>
-    </>
+    </div>
   );
 }
 
 export default App;
+
+
+
+

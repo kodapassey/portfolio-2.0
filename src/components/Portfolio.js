@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import portfolio from '../links/portfolio';
 
 
-export const Portfolio = () => {
+export default function Portfolio () {
     return (
         <Container>
             <Row className="portfolio-wrap">

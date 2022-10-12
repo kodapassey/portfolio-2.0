@@ -1,15 +1,11 @@
-/* list of class names */
-/* .banner - full <section> wrapping everything inside banner */
-/* .tagLine - <span> with words that say "welcome to my portfolio" */
-
-body {
-    background-color: #111011;
-}
-
 .banner {
     margin-top: 0;
     color: white;
     font-family: 'League Spartan', sans-serif;
+}
+
+.bannerRow {
+    padding: 2% 5% 2% 5%;
 }
 
 .tagLine {

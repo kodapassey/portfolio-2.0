@@ -8,7 +8,7 @@ import pixelImg from '../images/image (2).png';
 import logo from '../images/Una_K.png'
 
 
-export const Banner = () => {
+export default function Banner() {
 
     const navigate = useNavigate();
 
@@ -19,7 +19,7 @@ export const Banner = () => {
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className="align-items-center">
+                <Row className="align-items-center bannerRow">
                     <Col xs={12} md={6} lg={6} xl={7}>
                         <span className="tagLine">
                             Welcome to my Portfolio

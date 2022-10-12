@@ -3,7 +3,7 @@ import 'react-bootstrap-icons';
 import 'react-bootstrap';
 import { Col, Container, Row } from 'react-bootstrap';
 
-export const Skills = () => {
+export default function Skills () {
     return (
         <section className="experience">
 

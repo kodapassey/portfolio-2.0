@@ -1,5 +1,6 @@
 body {
     font-family: 'League Spartan', sans-serif;
+    background-color: #111011;
 }
 
 footer {
@@ -12,4 +13,8 @@ footer {
 footer p {
     position: relative;
     bottom: 10px;
+}
+
+.container, .text {
+    padding-left: 5%;
 }

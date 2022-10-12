@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import { Col, Container, Row } from 'react-bootstrap';
 
-export const Contact = () => {
+export default function Contact () {
     const refForm = useRef()
 
 

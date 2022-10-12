@@ -1,7 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import '../css/about.css';
 
-export const About = () => {
+export default function About () {
     return (
         <Container>
             <Row className='about'>
