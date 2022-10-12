@@ -16,14 +16,14 @@ function App() {
       <Sidebar />
 
       <Routes>
-        <Route path="/portfolio-2.0" element={[<Banner />, <Skills />]} />
-        <Route path="/portfolio-2.0/about" element={<About />} />
-        <Route path="/portfolio-2.0/contact" element={<Contact />} />
-        <Route path="/portfolio-2.0/portfolio" element={<Portfolio />} />
+        <Route path="/" element={[<Banner />, <Skills />]} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
 
       <Footer />
-    
+
 
     </div>
   );
