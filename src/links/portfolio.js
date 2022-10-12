@@ -10,6 +10,13 @@ import fitWit from '../images/projects/Screenshot (12).png';
 
 const portfolio = [
     {
+        name: 'SpeedDeck',
+        github: 'https://github.com/mwjones2186/speed-deck',
+        live: 'https://speeddeck.netlify.app/',
+        desc: 'SpeedDeck is an application that allows a user to create an account, and play timed based math games solo or with friends',
+        img: taskinator
+    },
+    {
         name: 'Taskinator',
         github: 'https://github.com/kodapassey/Taskinator',
         live: 'https://kodapassey.github.io/Taskinator/',
