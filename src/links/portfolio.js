@@ -7,6 +7,7 @@ import codeQuiz from '../images/projects/Screenshot (9).png';
 import taskinator from '../images/projects/Screenshot (14).png';
 import taskMasterPro from '../images/projects/Screenshot (13).png';
 import fitWit from '../images/projects/Screenshot (12).png';
+import speeddeck from '../images/projects/Screenshot (16).png';
 
 const portfolio = [
     {
@@ -14,7 +15,7 @@ const portfolio = [
         github: 'https://github.com/mwjones2186/speed-deck',
         live: 'https://speeddeck.netlify.app/',
         desc: 'SpeedDeck is an application that allows a user to create an account, and play timed based math games solo or with friends',
-        img: taskinator
+        img: speeddeck
     },
     {
         name: 'Taskinator',
