@@ -13,7 +13,7 @@ export default function Banner() {
     const navigate = useNavigate();
 
     const navigateToContact = () => {
-        navigate('/portfolio-2.0/contact');
+        navigate('/contact');
     };
 
     return (

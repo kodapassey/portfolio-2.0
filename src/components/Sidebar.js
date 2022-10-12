@@ -36,12 +36,12 @@ export default function Sidebar () {
                     <FontAwesomeIcon icon={faClose} />
                 </div>
 
-                <Link onClick={window.screen.width < 1536 ? handleClick : changeNav} className="logo" to='/portfolio-2.0'>
+                <Link onClick={window.screen.width < 1536 ? handleClick : changeNav} className="logo" to='/'>
                     <img className='sideK' src={LogoPNG} alt='logo' />
                     <p className='subLogo'>Koda</p>
                 </Link>
                 <nav>
-                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' to='/portfolio-2.0'>
+                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' to='/'>
                         <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
                     </NavLink>
                     <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' className='about-link' to='/about'>
