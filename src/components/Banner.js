@@ -2,7 +2,6 @@ import '../css/banner.scss';
 import { useNavigate } from 'react-router-dom';
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-// import selfImg from '../images/Screen Shot 2022-05-03 at 12.43.03 PM.png';
 import selfImg2 from '../images/Screen Shot 2022-05-03 at 12.43.03 PM(1).PNG';
 import pixelImg from '../images/image (2).png';
 import logo from '../images/Una_K.png'
