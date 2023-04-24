@@ -8,8 +8,16 @@ import taskinator from '../images/projects/Screenshot (14).png';
 import taskMasterPro from '../images/projects/Screenshot (13).png';
 import fitWit from '../images/projects/Screenshot (12).png';
 import speeddeck from '../images/projects/Screenshot (16).png';
+import platformInnovations from '../images/projects/Screenshot (3).png'
 
 const portfolio = [
+    {
+        name: 'Platform Innovations',
+        github: 'https://github.com/mwjones2186/platform-technologies',
+        live: 'https://platforminnovations.com/',
+        desc: 'Platform Innovations is a leading medical device company, developing innovative technology for healthcare. Our website showcases our latest products and provides information for healthcare professionals.',
+        img: platformInnovations
+    },
     {
         name: 'SpeedDeck',
         github: 'https://github.com/mwjones2186/speed-deck',

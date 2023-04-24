@@ -8,6 +8,7 @@ footer {
     padding: 10px 0 1px 0;
     padding-top: 5px;
     background: #181818;
+    top: 57px;
 }
 
 footer p {
@@ -15,6 +16,7 @@ footer p {
     bottom: 10px;
 }
 
-.container, .text {
+.container,
+.text {
     padding-left: 5%;
 }
