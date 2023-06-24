@@ -9,8 +9,16 @@ import taskMasterPro from '../images/projects/Screenshot (13).png';
 import fitWit from '../images/projects/Screenshot (12).png';
 import speeddeck from '../images/projects/Screenshot (16).png';
 import platformInnovations from '../images/projects/Screenshot (3).png'
+import cascaderanch from '../images/projects/Screenshot (5).png'
 
 const portfolio = [
+    {
+        name: 'Cascade Mountain Ranch',
+        github: 'https://github.com/kodapassey/wedding-website',
+        live: 'https://cascaderanch.netlify.app/',
+        desc: "Unforgettable Outdoor Adventures. Discover nature's beauty, charming accommodations, and thrilling activities on our website. Create lasting memories amidst the scenic wonders of the ranch.",
+        img: cascaderanch
+    },
     {
         name: 'Platform Innovations',
         github: 'https://github.com/mwjones2186/platform-technologies',

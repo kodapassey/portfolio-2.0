@@ -19,7 +19,7 @@ export default function Portfolio () {
                             <button className="github">GitHub</button>
                         </a>
                         <a target="_blank" rel="noreferrer" href={project.live}>
-                            <button className="live-demo">Live Demo</button>
+                            <button className="live-demo">Live</button>
                         </a>
                     </Col>
                 ))}
