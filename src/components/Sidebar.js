@@ -1,14 +1,15 @@
 import '../css/sidebar.scss'
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faClose, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faClose, faEnvelope, faHome, faUser, faFolderOpen, faFile } from '@fortawesome/free-solid-svg-icons';
 import LogoPNG from '../images/Una_K.png';
 import 'react-bootstrap'
-import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
+import kodaResume from '../links/Koda_Passey_Resume.pdf'
 
 
-export default function Sidebar () {
+export default function Sidebar() {
     const [isShown, setIsShown] = useState(true);
 
     const handleClick = event => {
@@ -29,7 +30,7 @@ export default function Sidebar () {
             </div>
 
             <div className="nav-bar" style={{
-                display: isShown ? 'block' : 'none',
+                display: isShown & window.screen.width < 1536 ? 'none' : 'block',
             }}>
 
                 <div onClick={handleClick} className='sidebar-x'>
@@ -42,16 +43,16 @@ export default function Sidebar () {
                 </Link>
                 <nav>
                     <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' to='/'>
-                        <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
+                        <h1 className='sidebarNavLinks'><FontAwesomeIcon icon={faHome} />Home</h1>
                     </NavLink>
                     <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' className='about-link' to='/about'>
-                        <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
+                        <h1 className='sidebarNavLinks'><FontAwesomeIcon icon={faUser} />About </h1>
                     </NavLink>
                     <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' className='contact-link' to='/contact'>
-                        <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
+                        <h1 className='sidebarNavLinks'><FontAwesomeIcon icon={faEnvelope} />Contact </h1>
                     </NavLink>
-                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' to='/portfolio'>
-                        <h3 className='portfolioBtn' >Portfolio</h3>
+                    <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' className='portfolio-link' to='/portfolio'>
+                        <h1 className='sidebarNavLinks'><FontAwesomeIcon icon={faFolderOpen} />Portfolio </h1>
                     </NavLink>
                 </nav>
                 <ul>
@@ -65,7 +66,18 @@ export default function Sidebar () {
                             <FontAwesomeIcon icon={faInstagram} color='#4d4d4e' />
                         </a>
                     </li>
+                    <li>
+                        <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/koda-passey-347966228/'>
+                            <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
+                        </a>
+                    </li>
                 </ul>
+
+                <div className='resumeDownload'>
+                    <a href={kodaResume} download='Koda_Passey_Resume.pdf'>
+                        <FontAwesomeIcon icon={faFile} color='#4d4d4e' />Download my resume
+                    </a>
+                </div>
             </div>
         </>
     )

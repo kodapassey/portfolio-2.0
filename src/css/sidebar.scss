@@ -2,11 +2,23 @@
     background: #181818;
     position: fixed;
     height: 100%;
-    width: 110px;
+    width: 175px;
     z-index: 9999;
     padding: 0%;
 }
 
+.sidebarNavLinks {
+    font-size: 20px;
+    text-align: left;
+    border-bottom: 1px solid #4d4d4e;
+    margin: 0 10px 10px 10px;
+    padding-bottom: 10px;
+}
+
+.sidebarNavLinks svg {
+    font-size: 15px;
+    margin-right: 7px;
+}
 
 .logo {
     display: block;
@@ -66,51 +78,6 @@ nav {
 
         &:hover {
             color: #26d0ce;
-
-            svg {
-                opacity: 0;
-            }
-
-            &:after {
-                opacity: 1;
-            }
-        }
-
-        &:after {
-            content: '';
-            font-size: 13px;
-            letter-spacing: 2px;
-            position: absolute;
-            bottom: 0;
-            display: block;
-            width: 100%;
-            text-align: center;
-            opacity: 0;
-            transition: all 0.3s ease-out;
-        }
-
-        &:first-child {
-            &::after {
-                content: 'HOME';
-            }
-        }
-
-        &.about-link {
-            &::after {
-                content: 'ABOUT';
-            }
-        }
-
-        &.contact-link {
-            &::after {
-                content: 'CONTACT';
-            }
-        }
-
-        a.active {
-            svg {
-                color: #26d0ce
-            }
         }
     }
 }
@@ -133,34 +100,39 @@ nav {
     color: #26d0ce;
 }
 
-.portfolioBtn {
-    background: none;
-    border: 2px solid #4d4d4e;
-    color: #4d4d4e;
-    font-size: 20px;
-    margin: 130px 10px 0;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.portfolioBtn:hover {
-    transition: all .5s ease-out;
-    color: #26d0ce;
-    border: 2px solid #26d0ce;
-    background-color: rgb(12, 12, 12);
-}
-
-
 .mobile-lines {
     display: none;
+    color: gray;
+}
+
+.resumeDownload {
+    position: relative;
+    top: 73%;
+    margin: 0 10px 10px 10px;
+    padding-bottom: 10px;
+}
+
+.resumeDownload:hover {
+
+    a,
+    svg {
+        color: #26d0ce;
+    }
+
+}
+
+.resumeDownload a {
+    text-decoration: none;
+    color: #4d4d4e;
+    font-size: 14px;
+}
+
+.resumeDownload svg {
+    margin-right: 5px;
+    font-size: 15px;
 }
 
 @media (min-width: 250px) {
-    .nav-bar {
-        width: 100%;
-    }
 
     .mobile-lines {
         display: block;
@@ -171,16 +143,10 @@ nav {
     }
 
     .sidebar-x {
+        color: gray;
         font-size: 35px;
         margin: 10px 20px 0 10px;
         position: absolute;
-    }
-
-    .portfolioBtn {
-        width: 50%;
-        margin: 0;
-        margin-top: 130px;
-        left: 25%;
     }
 }
 
@@ -195,7 +161,6 @@ nav {
 @media (min-width: 1536px) {
     .nav-bar {
         display: flex;
-        width: 110px;
     }
 
     .mobile-lines {
@@ -204,11 +169,5 @@ nav {
 
     .sidebar-x {
         display: none;
-    }
-
-    .portfolioBtn {
-        width: 80%;
-        margin: 130px 10px 0;
-        left: 0%;
     }
 }
