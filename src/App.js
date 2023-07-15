@@ -9,7 +9,6 @@ import Footer from './components/Footer';
 import Sidebar from "./components/Sidebar";
 import Skills from "./components/Skills";
 
-// "homepage": "https://kodapassey.github.io/portfolio-2.0",
 
 function App() {
   return (
@@ -31,7 +30,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
