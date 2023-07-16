@@ -12,27 +12,7 @@ import platformInnovations from '../images/projects/Screenshot (3).png'
 import cascaderanch from '../images/projects/Screenshot (5).png'
 import superiorshiftchange from '../images/projects/Screenshot (17).png'
 
-const portfolio = [
-    {
-        name: 'Superior Shift Change Book',
-        live: 'https://superiorshiftchange-de0ea833dd80.herokuapp.com/',
-        github: 'https://github.com/kodapassey/Shift-Change-Book',
-        img: superiorshiftchange
-    },
-    {
-        name: 'Cascade Mountain Ranch',
-        github: 'https://github.com/kodapassey/wedding-website',
-        live: 'https://cascaderanch.netlify.app/',
-        desc: "Unforgettable Outdoor Adventures. Discover nature's beauty, charming accommodations, and thrilling activities on our website. Create lasting memories amidst the scenic wonders of the ranch.",
-        img: cascaderanch
-    },
-    {
-        name: 'Platform Innovations',
-        github: 'https://github.com/mwjones2186/platform-technologies',
-        live: 'https://platforminnovations.com/',
-        desc: 'Platform Innovations is a leading medical device company, developing innovative technology for healthcare. Our website showcases our latest products and provides information for healthcare professionals.',
-        img: platformInnovations
-    },
+export const bootcampProjects = [
     {
         name: 'SpeedDeck',
         github: 'https://github.com/mwjones2186/speed-deck',
@@ -105,4 +85,27 @@ const portfolio = [
     }
 ]
 
-export default portfolio;
+export const portfolio = [
+    {
+        name: 'Superior Shift Change Book',
+        live: 'https://superiorshiftchange-de0ea833dd80.herokuapp.com/',
+        github: 'https://github.com/kodapassey/Shift-Change-Book',
+        desc: "Efficient shift management made easy with Superior Athletic Club's web app!",
+        img: superiorshiftchange
+    },
+    {
+        name: 'Cascade Mountain Ranch',
+        github: 'https://github.com/kodapassey/wedding-website',
+        live: 'https://cascaderanch.netlify.app/',
+        desc: "Unforgettable Outdoor Adventures. Discover nature's beauty, charming accommodations, and thrilling activities on our website. Create lasting memories amidst the scenic wonders of the ranch.",
+        img: cascaderanch
+    },
+    {
+        name: 'Platform Innovations',
+        github: 'https://github.com/mwjones2186/platform-technologies',
+        live: 'https://platforminnovations.com/',
+        desc: 'Platform Innovations is a leading medical device company, developing innovative technology for healthcare. Our website showcases our latest products and provides information for healthcare professionals.',
+        img: platformInnovations
+    }
+]
+

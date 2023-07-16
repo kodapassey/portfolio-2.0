@@ -42,7 +42,6 @@
     display: flex;
     width: 100%;
     max-width: 400px;
-    height: 500px;
     margin: 0 auto;
 }
 
@@ -53,9 +52,8 @@
     background-repeat: no-repeat;
     -webkit-animation: fade 24s infinite;
     animation: fade 24s infinite;
-    border: 3px solid white;
     border-radius: 10px;
-    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    box-shadow: rgba(57, 140, 255, 0.35) 0px 5px 15px;
 }
 
 #pic1 {
@@ -143,11 +141,6 @@
     .about-text h2,
     .about-text p {
         text-align: left;
-    }
-
-    .pic {
-        width: 120%;
-        height: 120%;
     }
 }
 

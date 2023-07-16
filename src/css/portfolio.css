@@ -17,21 +17,12 @@
   box-shadow: rgba(57, 140, 255, 0.35) 0px 5px 15px;
 }
 
-.project img {
-  width: 100%;
-  border: 1px solid white;
-  border-radius: 10px;
-}
-
 .project button {
-  padding: 10px;
-  margin: 5px;
+  margin: 3px;
   border: 1px solid white;
-  border-radius: 10px;
-}
-
-.project h3 {
-  margin-top: 10px;
+  border-radius: 4px;
+  height: 45px;
+  width: 47%;
 }
 
 .project button:hover {
@@ -40,16 +31,58 @@
   border: 1px solid black;
 }
 
+.duckProject {
+  box-shadow: rgba(0, 255, 47, 0.35) 0px 5px 15px;
+}
+
+.duckProject button:hover {
+  background: #007935;
+}
+
+.project img {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.project h3 {
+  margin-top: 10px;
+}
+
+
+
 .portfolio-wrap h1 {
   text-align: center;
   color: white;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .portfolio-wrap h2 {
   font-size: 20px;
   text-align: center;
   color: gray;
+}
+
+.subDivPortfolio {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.subDivPortfolio h3 {
+  font-size: 45px;
+  color: #007935;
+}
+
+.subDivPortfolio p {
+  font-size: 18px;
+  width: 85%;
+  margin: 0 auto;
+  color: gray;
+}
+
+.ducksLogo {
+  width: 80px;
 }
 
 

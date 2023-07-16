@@ -1,6 +1,6 @@
 import React from "react";
 import './css/app.css';
-import './css/background.css'
+import './css/background.css';
 import { Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Banner from "./components/Banner";

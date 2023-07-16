@@ -11,7 +11,7 @@
     border-bottom: 1px solid #4d4d4e;
     font-size: 20px;
     margin: 15px 10px 10px 10px;
-    padding-bottom: 15px;
+    padding-bottom: 7px;
     text-align: left;
 }
 
@@ -29,14 +29,13 @@
 .logo:hover {
 
     .subLogo {
-        transition: all 0.25s ease-out;
+        transition: all 0.2s ease-out;
         color: #26d0ce;
-        font-size: 27px;
     }
 
     img {
-        transition: all 0.25s ease-out;
-        width: 55px;
+        transition: all 0.2s ease-out;
+        width: 52px;
     }
 }
 

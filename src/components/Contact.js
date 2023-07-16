@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import { Col, Container, Row } from 'react-bootstrap';
 
-export default function Contact () {
+export default function Contact() {
     const refForm = useRef()
 
 
@@ -26,6 +26,8 @@ export default function Contact () {
             <Row className='contanier contact-page'>
                 <Col xl={6} lg={6} xs={12} className='text-zone'>
                     <h1>GET IN TOUCH</h1>
+                    <p className='contactP'>
+                        Hey there! I'm thrilled you're here! Got a question, feedback, or just wanna say hi? Shoot me a message using the contact form below. I'll get back to you ASAP! Can't wait to chat with you. Thanks for checking out my portfolio!</p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
                             <ul>

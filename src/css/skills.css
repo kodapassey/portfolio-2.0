@@ -21,7 +21,7 @@
 .text p {
     color: grey;
     font-size: 20px;
-    width: 60%;
+    width: 80%;
     margin: 20px auto 0px auto;
 }
 
@@ -77,10 +77,24 @@
     font-weight: bolder;
 }
 
+.githubBoldTxt a {
+    text-decoration: none;
+    color: white;
+}
+
+.bootcampHoverTxt:hover {
+    transition: all .5s ease-out;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #007935;
+}
+
 .frontend svg,
 .backend svg {
     font-size: 15px;
 }
+
+
 
 @media (min-width: 250px) {
 
@@ -92,7 +106,11 @@
     }
 }
 
-@media (min-width: 640px) {}
+@media (min-width: 640px) {
+    .text p {
+        width: 60%;
+    }
+}
 
 @media (min-width: 768px) {
 

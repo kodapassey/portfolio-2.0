@@ -14,19 +14,6 @@ p {
     font-family: 'Quicksand', sans-serif;
 }
 
-footer {
-    position: relative;
-    padding: 10px 0 1px 0;
-    padding-top: 5px;
-    background: #181818;
-    top: 57px;
-}
-
-footer p {
-    position: relative;
-    bottom: 10px;
-}
-
 .container {
     padding: 0 5% 0 5%;
 }

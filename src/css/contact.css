@@ -4,9 +4,17 @@
     flex-direction: column;
 }
 
+.contact-page {
+    padding-top: 50px;
+}
+
 .contact-form {
     width: 100%;
     margin-top: 20px;
+}
+
+.contactP {
+    font-size: 16px;
 }
 
 .contact-form ul {
@@ -16,7 +24,6 @@
 
 .contact-form ul li {
     padding: 0;
-    margin: 0;
     list-style-type: none;
     margin-bottom: 10px;
     display: block;
@@ -63,17 +70,21 @@ textarea {
 .flat-button {
     font-size: 11px;
     letter-spacing: 3px;
+    color: #878787;
     text-decoration: none;
-    color: #181818;
-    padding: 8px 10px;
-    border: 1px solid white;
+    background: #181818;
+    border: 1px solid black;
     border-radius: 4px;
+    width: 50%;
+    height: 40px;
+    text-align: left;
+    padding: 0 15px;
 }
 
 .flat-button:hover {
     transition: all .2s ease-out;
-    background: #26d0ce;
-    border: 1px solid black;
+    border: 1px solid white;
+    color: white;
 }
 
 .map-wrap {
