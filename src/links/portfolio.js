@@ -10,8 +10,15 @@ import fitWit from '../images/projects/Screenshot (12).png';
 import speeddeck from '../images/projects/Screenshot (16).png';
 import platformInnovations from '../images/projects/Screenshot (3).png'
 import cascaderanch from '../images/projects/Screenshot (5).png'
+import superiorshiftchange from '../images/projects/Screenshot (17).png'
 
 const portfolio = [
+    {
+        name: 'Superior Shift Change Book',
+        live: 'https://superiorshiftchange-de0ea833dd80.herokuapp.com/',
+        github: 'https://github.com/kodapassey/Shift-Change-Book',
+        img: superiorshiftchange
+    },
     {
         name: 'Cascade Mountain Ranch',
         github: 'https://github.com/kodapassey/wedding-website',

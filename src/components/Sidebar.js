@@ -43,16 +43,16 @@ export default function Sidebar() {
                 </Link>
                 <nav>
                     <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' to='/'>
-                        <h1 className='sidebarNavLinks'><FontAwesomeIcon icon={faHome} />Home</h1>
+                        <p className='sidebarNavLinks'><FontAwesomeIcon icon={faHome} />Home</p>
                     </NavLink>
                     <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' className='about-link' to='/about'>
-                        <h1 className='sidebarNavLinks'><FontAwesomeIcon icon={faUser} />About </h1>
+                        <p className='sidebarNavLinks'><FontAwesomeIcon icon={faUser} />About </p>
                     </NavLink>
                     <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' className='contact-link' to='/contact'>
-                        <h1 className='sidebarNavLinks'><FontAwesomeIcon icon={faEnvelope} />Contact </h1>
+                        <p className='sidebarNavLinks'><FontAwesomeIcon icon={faEnvelope} />Contact </p>
                     </NavLink>
                     <NavLink onClick={window.screen.width < 1536 ? handleClick : changeNav} exact='true' activeclassname='active' className='portfolio-link' to='/portfolio'>
-                        <h1 className='sidebarNavLinks'><FontAwesomeIcon icon={faFolderOpen} />Portfolio </h1>
+                        <p className='sidebarNavLinks'><FontAwesomeIcon icon={faFolderOpen} />Portfolio </p>
                     </NavLink>
                 </nav>
                 <ul>

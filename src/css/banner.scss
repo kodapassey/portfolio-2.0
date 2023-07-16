@@ -5,7 +5,7 @@
 }
 
 .bannerRow {
-    padding: 2% 5% 2% 5%;
+    padding: 12% 5% 2% 5%;
 }
 
 .tagLine {
@@ -54,7 +54,7 @@
     margin-top: 20px;
 }
 
-.banner button {
+.letsConnectBtn {
     background: none;
     border: none;
     color: #fff;
@@ -65,19 +65,19 @@
     align-items: center;
 }
 
-.banner button:hover {
+.letsConnectBtn:hover {
     cursor: pointer;
     color: #26d0ce;
 }
 
-.banner button svg {
+.letsConnectBtn svg {
     font-size: 25px;
     margin-left: 10px;
     transition: 0.3s ease-in-out;
     line-height: 1;
 }
 
-.banner button:hover svg {
+.letsConnectBtn:hover svg {
     margin-left: 25px;
 }
 
@@ -88,10 +88,9 @@
 
 .imgWrap .topImg {
     width: 100%;
-    border-radius: 15%;
+    border-radius: 35px;
     z-index: 3;
-    border: 2px solid white;
-    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    box-shadow: rgba(57, 140, 255, 0.35) 0px 5px 15px;
 }
 
 
@@ -99,9 +98,8 @@
     position: relative;
     right: 100%;
     width: 100%;
-    border-radius: 15%;
-    border: 2px solid white;
-    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    border-radius: 35px;
+    box-shadow: rgba(57, 140, 255, 0.35) 0px 5px 15px;
 }
 
 @keyframes FadeInOut {
@@ -137,7 +135,7 @@
         padding: 20px;
     }
 
-    .banner button {
+    .letsConnectBtn {
         display: inline;
         margin-bottom: 20px;
     }
@@ -173,7 +171,7 @@
         text-align: left;
     }
 
-    .banner button {
+    .letsConnectBtn {
         display: flex;
         margin-bottom: 0px;
     }

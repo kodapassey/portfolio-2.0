@@ -3,13 +3,14 @@ import 'react-bootstrap-icons';
 import 'react-bootstrap';
 import { Col, Container, Row } from 'react-bootstrap';
 
-export default function Skills () {
+export default function Skills() {
     return (
         <section className="experience">
 
             <div className='text'>
                 <h2>My Experience</h2>
-                <p>What Skills I have</p>
+                <p>
+                    Through my rigorous training at the<span className='githubBoldTxt'> University of Oregon's Coding Bootcamp </span>, I have acquired extensive knowledge and proficiency in a broad spectrum of both front-end and back-end frameworks, languages, and technologies. With a <span className='githubBoldTxt'> comprehensive understanding of HTML, CSS, JavaScript, React, Express, Node.js and MongoDB</span>, I possess a well-rounded skill set that enables me to tackle various aspects of web development. Additionally, my educational background has equipped me with valuable experience in collaborating with others using tools like <span className='githubBoldTxt'>GitHub and version control</span>, ensuring efficient teamwork and smooth project coordination.</p>
             </div>
 
             <Container>
@@ -29,7 +30,7 @@ export default function Skills () {
                             </li>
                             <li>
                                 JavaScript
-                                <p>Intermediate</p>
+                                <p>Advanced</p>
                             </li>
                             <li>
                                 React
@@ -48,7 +49,7 @@ export default function Skills () {
                             </li>
                             <li>
                                 MongoDB
-                                <p>Basic</p>
+                                <p>Advanced</p>
                             </li>
                             <li>
                                 MySQL
@@ -56,7 +57,7 @@ export default function Skills () {
                             </li>
                             <li>
                                 Express
-                                <p>Intermediate</p>
+                                <p>Advanced</p>
                             </li>
                         </ul>
                     </Col>

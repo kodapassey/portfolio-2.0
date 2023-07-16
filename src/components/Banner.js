@@ -1,10 +1,12 @@
 import '../css/banner.scss';
+import FeaturedProjects from './FeaturedProjects'
 import { useNavigate } from 'react-router-dom';
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import selfImg2 from '../images/Screen Shot 2022-05-03 at 12.43.03 PM(1).PNG';
 import pixelImg from '../images/image (2).png';
 import logo from '../images/Una_K.png'
+
 
 
 export default function Banner() {
@@ -26,13 +28,14 @@ export default function Banner() {
                         <h1>Hi! I'm <img className='nameK' src={logo} alt='K inside name' />oda Passey</h1>
                         <span className="fakeCode">&lt;h2&gt;</span><h2>Web Developer</h2><span className="fakeCode">&lt;h2 /&gt;</span>
                         <p>I am Koda, a full-stack web developer out of Oregon.</p>
-                        <button onClick={navigateToContact}>Lets Connect <ArrowRightCircle size={25} /> </button>
+                        <button className='letsConnectBtn' onClick={navigateToContact}>Lets Connect <ArrowRightCircle size={25} /> </button>
                     </Col>
                     <Col className='imgWrap' xs={12} md={6} lg={6} xl={5}>
                         <img src={selfImg2} className='topImg' alt="Header Img" />
                         <img src={pixelImg} className='bottomImg' alt="Alternating header img" />
                     </Col>
                 </Row>
+                <FeaturedProjects />
             </Container>
         </section>
     )

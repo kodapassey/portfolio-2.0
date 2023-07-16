@@ -13,15 +13,26 @@
     display: block;
 }
 
+.text h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.text p {
+    color: grey;
+    font-size: 20px;
+    width: 60%;
+    margin: 20px auto 0px auto;
+}
+
 .frontend,
 .backend {
-    border: 2px solid white;
     margin: 3%;
     padding: 4%;
     position: relative;
     border-radius: 20px;
     background: #181818;
-    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    box-shadow: rgba(57, 140, 255, 0.35) 0px 5px 15px;
 }
 
 .frontend:hover,
@@ -61,11 +72,15 @@
     color: gray;
 }
 
+.githubBoldTxt {
+    color: white;
+    font-weight: bolder;
+}
+
 .frontend svg,
 .backend svg {
     font-size: 15px;
 }
-
 
 @media (min-width: 250px) {
 

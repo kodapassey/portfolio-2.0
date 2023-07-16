@@ -1,0 +1,55 @@
+/* .backgroundImg {
+    background: transparent url('../images/noise-2x.webp') repeat 0 0;
+    animation-name: NoiseBg_bg-animation__MbdMQ;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    position: absolute;
+    width: 100%;
+
+}
+
+@keyframes NoiseBg_bg-animation__MbdMQ {
+    0% {
+        transform: translate(0);
+    }
+
+    10% {
+        transform: translate(-5%, -5%);
+    }
+
+    20% {
+        transform: translate(-10%, 5%);
+    }
+
+    30% {
+        transform: translate(5%, -10%);
+    }
+
+    40% {
+        transform: translate(-5%, 15%);
+    }
+
+    50% {
+        transform: translate(-10%, 5%);
+    }
+
+    60% {
+        transform: translate(15%);
+    }
+
+    70% {
+        transform: translateY(10%);
+    }
+
+    80% {
+        transform: translate(-15%);
+    }
+
+    90% {
+        transform: translate(10%, 5%);
+    }
+
+    100% {
+        transform: translate(5%);
+    }
+} */

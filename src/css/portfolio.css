@@ -1,54 +1,90 @@
 .portfolio-wrap {
-    display: flex;
-    width: 100%;
-    margin-bottom: 50px;
-    justify-content: center;
-    margin-left: 1%;
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  justify-content: center;
+  margin-left: 1%;
 }
 
 .project {
-    border: 7px solid white;
-    background: #181818;
-    border-radius: 5%;
-    text-align: center;
-    margin: 50px 15px 0 10px;
-    padding: 20px;
-    color: white;
-    margin-top: 50px;
-    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  background: #181818;
+  border-radius: 5%;
+  text-align: center;
+  margin: 50px 15px 0 10px;
+  padding: 20px;
+  color: white;
+  margin-top: 50px;
+  box-shadow: rgba(57, 140, 255, 0.35) 0px 5px 15px;
 }
 
 .project img {
-    width: 100%;
-    border: 1px solid white;
-    border-radius: 10px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 .project button {
-    padding: 10px;
-    margin: 5px;
-    border: 1px solid white;
-    border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 .project h3 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .project button:hover {
-    transition: all .5s ease-out;
-    background: #26d0ce;
-    border: 1px solid black;
+  transition: all .5s ease-out;
+  background: #bec7ff;
+  border: 1px solid black;
 }
 
 .portfolio-wrap h1 {
-    text-align: center;
-    color: white;
-    margin-top: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
 }
 
 .portfolio-wrap h2 {
-    font-size: 20px;
-    text-align: center;
-    color: gray;
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+}
+
+
+/* featured project styles on home page */
+
+.featuredProjectRow {
+  margin: 0 auto;
+  text-align: center;
+  margin: 100px 0 75px 0;
+}
+
+.featuredProject:hover {
+  transition: all .3s ease;
+  transform: translateY(-5px);
+}
+
+.featuredProjectRow p {
+  color: grey;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.featuredProject p {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+  height: 70px;
+}
+
+.featuredProjectRow h2 {
+  font-size: 40px;
+  color: white;
+}
+
+.featuredProjectRow h3 {
+  font-size: 20px;
+  color: white;
 }
