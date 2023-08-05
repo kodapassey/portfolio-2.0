@@ -6,7 +6,7 @@ import LogoPNG from '../images/Una_K.png';
 import 'react-bootstrap'
 import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
-import kodaResume from '../links/Koda_Passey_Resume.pdf'
+import kodaResume from '../links/ResumeWithBio.pdf'
 
 
 export default function Sidebar() {

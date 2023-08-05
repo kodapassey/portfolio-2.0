@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.14ea3a2b.css",
-    "main.js": "/static/js/main.9de95ebb.js",
+    "main.css": "/static/css/main.ad41283c.css",
+    "main.js": "/static/js/main.cb3af852.js",
     "static/media/IMG_2268.JPG": "/static/media/IMG_2268.61ff533c47f5121f8b0e.JPG",
     "static/media/IMG_8921.JPG": "/static/media/IMG_8921.e73d0d81c0e973953b7e.JPG",
     "static/media/IMG_8795.JPG": "/static/media/IMG_8795.da7fa74f7de317eeb47a.JPG",
@@ -12,6 +12,7 @@
     "static/media/PMGM4001.JPG": "/static/media/PMGM4001.6ff363c5d57c3f31f92b.JPG",
     "static/media/Screenshot (3).png": "/static/media/Screenshot (3).1300a3f7c9bc79751920.png",
     "static/media/F57BAC51-7C54-42C1-B497-9A5128F2568A.jpg": "/static/media/F57BAC51-7C54-42C1-B497-9A5128F2568A.8b076f1dcebd47883264.jpg",
+    "static/media/oregon-ducks-8-logo-png-transparent.png": "/static/media/oregon-ducks-8-logo-png-transparent.004535299abad02130d0.png",
     "static/media/KPXP1522.JPG": "/static/media/KPXP1522.ca2524d52e04267bf908.JPG",
     "static/media/IMG_4736.JPG": "/static/media/IMG_4736.7b9522e2f57dbf42f5e6.JPG",
     "static/media/Screenshot (4).png": "/static/media/Screenshot (4).786bb6e9040b071ae354.png",
@@ -29,11 +30,11 @@
     "static/media/Screenshot (8).png": "/static/media/Screenshot (8).266deac55ef8c68990c8.png",
     "static/media/noise-2x.webp": "/static/media/noise-2x.af1a381e99f2ceac9e80.webp",
     "index.html": "/index.html",
-    "main.14ea3a2b.css.map": "/static/css/main.14ea3a2b.css.map",
-    "main.9de95ebb.js.map": "/static/js/main.9de95ebb.js.map"
+    "main.ad41283c.css.map": "/static/css/main.ad41283c.css.map",
+    "main.cb3af852.js.map": "/static/js/main.cb3af852.js.map"
   },
   "entrypoints": [
-    "static/css/main.14ea3a2b.css",
-    "static/js/main.9de95ebb.js"
+    "static/css/main.ad41283c.css",
+    "static/js/main.cb3af852.js"
   ]
 }
