@@ -12,6 +12,7 @@ import platformInnovations from '../images/projects/Screenshot (3).png'
 import cascaderanch from '../images/projects/Screenshot (5).png'
 import superiorshiftchange from '../images/projects/Screenshot (17).png'
 
+
 export const bootcampProjects = [
     {
         name: 'SpeedDeck',

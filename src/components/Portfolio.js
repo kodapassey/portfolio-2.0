@@ -2,6 +2,7 @@ import '../css/portfolio.css'
 import { Container, Row, Col } from "react-bootstrap";
 import { portfolio, bootcampProjects } from '../links/portfolio';
 import oregonDucksLogo from '../images/oregon-ducks-8-logo-png-transparent.png'
+import indiaPalaceMedford from '../images/projects/India Palace SS.png'
 
 
 
@@ -12,6 +13,13 @@ export default function Portfolio() {
                 <h1>VIEW MY WORK</h1>
                 <h2>My Coding Portfolio: Showcasing Innovative Projects</h2>
                 {/* map for personal/freelance projects */}
+                <Col className='project featuredProject' xl={3}>
+                    <img src={indiaPalaceMedford} alt=""></img>
+                    <p>India Palace Medford</p>
+                    <a target="_blank" rel="noreferrer" href='https://www.indiapalacemedford.com/'>
+                        <button className="live-demo">Live</button>
+                    </a>
+                </Col>
                 {portfolio.map((project) => (
                     <Col xl={3} lg={4} md={6} sm={6} xs={12} className="project">
                         <img src={project.img} alt=""></img>

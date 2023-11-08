@@ -9,6 +9,7 @@ import platformInnovations from '../images/projects/Screenshot (3).png'
 
 
 
+
 export default function Banner() {
     return (
         <Row className='portfolio-wrap featuredProjectRow'>

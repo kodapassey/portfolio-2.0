@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad41283c.css",
-    "main.js": "/static/js/main.cb3af852.js",
+    "main.css": "/static/css/main.dbfe829b.css",
+    "main.js": "/static/js/main.7f77233c.js",
     "static/media/IMG_2268.JPG": "/static/media/IMG_2268.61ff533c47f5121f8b0e.JPG",
     "static/media/IMG_8921.JPG": "/static/media/IMG_8921.e73d0d81c0e973953b7e.JPG",
     "static/media/IMG_8795.JPG": "/static/media/IMG_8795.da7fa74f7de317eeb47a.JPG",
@@ -23,18 +23,18 @@
     "static/media/Screenshot (7).png": "/static/media/Screenshot (7).202aec4c2bc4cbb9eee8.png",
     "static/media/Screenshot (13).png": "/static/media/Screenshot (13).24cb578d4c27a698fbe8.png",
     "static/media/image (2).png": "/static/media/image (2).edbb86cb97ca5bdafe62.png",
-    "static/media/Koda_Passey_Resume.pdf": "/static/media/Koda_Passey_Resume.46252ca6ea37b7fd57ee.pdf",
+    "static/media/ResumeWithBio.pdf": "/static/media/ResumeWithBio.4ed6eede0a813f71e03a.pdf",
     "static/media/Screenshot (14).png": "/static/media/Screenshot (14).eb160d495a31fe98d029.png",
     "static/media/Screenshot (9).png": "/static/media/Screenshot (9).d97b982b309ce9f0b99b.png",
     "static/media/Screenshot (6).png": "/static/media/Screenshot (6).a120814e7e12d0a6b65a.png",
     "static/media/Screenshot (8).png": "/static/media/Screenshot (8).266deac55ef8c68990c8.png",
     "static/media/noise-2x.webp": "/static/media/noise-2x.af1a381e99f2ceac9e80.webp",
     "index.html": "/index.html",
-    "main.ad41283c.css.map": "/static/css/main.ad41283c.css.map",
-    "main.cb3af852.js.map": "/static/js/main.cb3af852.js.map"
+    "main.dbfe829b.css.map": "/static/css/main.dbfe829b.css.map",
+    "main.7f77233c.js.map": "/static/js/main.7f77233c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad41283c.css",
-    "static/js/main.cb3af852.js"
+    "static/css/main.dbfe829b.css",
+    "static/js/main.7f77233c.js"
   ]
 }
