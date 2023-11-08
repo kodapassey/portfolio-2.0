@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.dbfe829b.css",
-    "main.js": "/static/js/main.7f77233c.js",
+    "main.js": "/static/js/main.52e1e705.js",
     "static/media/IMG_2268.JPG": "/static/media/IMG_2268.61ff533c47f5121f8b0e.JPG",
     "static/media/IMG_8921.JPG": "/static/media/IMG_8921.e73d0d81c0e973953b7e.JPG",
     "static/media/IMG_8795.JPG": "/static/media/IMG_8795.da7fa74f7de317eeb47a.JPG",
     "static/media/Screenshot (5).png": "/static/media/Screenshot (5).222efdee15b3b0cfccdd.png",
     "static/media/Screen Shot 2022-05-03 at 12.43.03 PM(1).PNG": "/static/media/Screen Shot 2022-05-03 at 12.43.03 PM(1).e4cc8fbcd90e923937a4.PNG",
+    "static/media/India Palace SS.png": "/static/media/India Palace SS.5abcb882e6470bdc8cba.png",
     "static/media/Screenshot (2).png": "/static/media/Screenshot (2).608402e13bbe5aa09ab1.png",
     "static/media/Screenshot (16).png": "/static/media/Screenshot (16).fa77550096ff96cbbe3c.png",
     "static/media/PMGM4001.JPG": "/static/media/PMGM4001.6ff363c5d57c3f31f92b.JPG",
@@ -31,10 +32,10 @@
     "static/media/noise-2x.webp": "/static/media/noise-2x.af1a381e99f2ceac9e80.webp",
     "index.html": "/index.html",
     "main.dbfe829b.css.map": "/static/css/main.dbfe829b.css.map",
-    "main.7f77233c.js.map": "/static/js/main.7f77233c.js.map"
+    "main.52e1e705.js.map": "/static/js/main.52e1e705.js.map"
   },
   "entrypoints": [
     "static/css/main.dbfe829b.css",
-    "static/js/main.7f77233c.js"
+    "static/js/main.52e1e705.js"
   ]
 }

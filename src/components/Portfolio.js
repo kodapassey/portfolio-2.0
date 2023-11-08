@@ -15,7 +15,8 @@ export default function Portfolio() {
                 {/* map for personal/freelance projects */}
                 <Col className='project featuredProject' xl={3}>
                     <img src={indiaPalaceMedford} alt=""></img>
-                    <p>India Palace Medford</p>
+                    <h3>India Palace Medford</h3>
+                    <p>India Palace is home to the finest Indian cuisine in the Rogue Valley.</p>
                     <a target="_blank" rel="noreferrer" href='https://www.indiapalacemedford.com/'>
                         <button className="live-demo">Live</button>
                     </a>
