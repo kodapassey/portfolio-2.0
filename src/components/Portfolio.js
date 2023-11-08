@@ -13,7 +13,7 @@ export default function Portfolio() {
                 <h1>VIEW MY WORK</h1>
                 <h2>My Coding Portfolio: Showcasing Innovative Projects</h2>
                 {/* map for personal/freelance projects */}
-                <Col className='project featuredProject' xl={3}>
+                <Col className='project' xl={3}>
                     <img src={indiaPalaceMedford} alt=""></img>
                     <h3>India Palace Medford</h3>
                     <p>India Palace is home to the finest Indian cuisine in the Rogue Valley.</p>
